@@ -34,7 +34,7 @@ function TodoListItems() {
   return (
     <>
       {store.todos.map((todo) => (
-        <Paper component="form" className={classes.root} key={todo.id} >
+        <Paper component="form" className={classes.root} key={todo.id} elevation={3}>
           <Tooltip title="Click on me to edit" arrow>
           <InputBase
             className={classes.input}
